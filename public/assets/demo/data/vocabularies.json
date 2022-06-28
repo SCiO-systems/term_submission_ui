@@ -1,0 +1,530 @@
+{
+  "media": {
+    "general_properties": {
+      "header": "Create Media Question",
+      "id": "media"
+    },
+    "basic_properties": {
+      "label": {
+        "enabled": true
+      },
+      "name": {
+        "enabled": true
+      },
+      "hint": {
+        "enabled": true
+      },
+      "default": {
+        "enabled": true
+      },
+      "repeating": {
+        "enabled": false
+      },
+      "required": {
+        "enabled": true
+      },
+      "read_only": {
+        "enabled": true
+      },
+      "multiple": {
+        "enabled": false
+      },
+      "calendar": {
+        "enabled": false
+      },
+      "range": {
+        "enabled": false
+      },
+      "type": {
+        "unit": false,
+        "enabled": true,
+        "dropdownValues": [
+          { "name": "Image", "code": "IMG" },
+          { "name": "Audio", "code": "ADI" },
+          { "name": "Video", "code": "VDI" }
+        ]
+      },
+      "style": {
+        "enabled": false,
+        "dropdownValues": null
+      },
+      "datatable": {
+        "enabled": false
+      }
+    },
+    "advanced_properties": {
+      "hide": false,
+      "constraint": {
+        "enabled": true
+      },
+      "condition": {
+        "enabled": true
+      },
+      "calculation": {
+        "enabled": true
+      }
+    }
+  },
+  "barcode": {
+    "general_properties": {
+      "header": "Create Barcode Question",
+      "id": "barcode"
+    },
+    "basic_properties": {
+      "label": {
+        "enabled": true
+      },
+      "name": {
+        "enabled": true
+      },
+      "hint": {
+        "enabled": true
+      },
+      "default": {
+        "enabled": true
+      },
+      "repeating": {
+        "enabled": false
+      },
+      "required": {
+        "enabled": true
+      },
+      "read_only": {
+        "enabled": true
+      },
+      "multiple": {
+        "enabled": false
+      },
+      "range": {
+        "enabled": false
+      },
+      "calendar": {
+        "enabled": false
+      },
+      "type": {
+        "enabled": false,
+        "dropdownValues": null
+      },
+      "style": {
+        "enabled": false,
+        "dropdownValues": null
+      },
+      "datatable": {
+        "enabled": false
+      }
+    },
+    "advanced_properties": {
+      "hide": false,
+      "constraint": {
+        "enabled": true
+      },
+      "condition": {
+        "enabled": true
+      },
+      "calculation": {
+        "enabled": true
+      }
+    }
+  },
+  "calendar": {
+    "general_properties": {
+      "header": "Create Calendar Question",
+      "id": "calendar"
+    },
+    "basic_properties": {
+      "label": {
+        "enabled": true
+      },
+      "name": {
+        "enabled": true
+      },
+      "hint": {
+        "enabled": true
+      },
+      "default": {
+        "enabled": true
+      },
+      "repeating": {
+        "enabled": false
+      },
+      "required": {
+        "enabled": true
+      },
+      "read_only": {
+        "enabled": true
+      },
+      "multiple": {
+        "enabled": false
+      },
+      "range": {
+        "enabled": false
+      },
+      "calendar": {
+        "enabled": true
+      },
+      "type": {
+        "enabled": false,
+        "dropdownValues": [
+          { "name": "Full Date", "code": "FDT" },
+          { "name": "Year and Month", "code": "YAM" },
+          { "name": "Year", "code": "YER" },
+          { "name": "Full Date Time", "code": "FDT" },
+          { "name": "Time", "code": "TME" }
+        ]
+      },
+      "style": {
+        "enabled": true,
+        "dropdownValues": [
+          { "name": "No Calendar", "code": "FDT" },
+          { "name": "Month Year", "code": "YAM" },
+          { "name": "Year", "code": "YER" },
+          { "name": "Full Date", "code": "FDD" },
+          { "name": "Full Date Time", "code": "FTT" }
+        ]
+      },
+      "datatable": {
+        "enabled": false
+      }
+    },
+    "advanced_properties": {
+      "constraint": {
+        "enabled": true
+      },
+      "condition": {
+        "enabled": true
+      },
+      "calculation": {
+        "enabled": true
+      }
+    }
+  },
+  "location": {
+    "general_properties": {
+      "header": "Create Location Question",
+      "id": "location"
+    },
+    "basic_properties": {
+      "label": {
+        "enabled": true
+      },
+      "name": {
+        "enabled": true
+      },
+      "hint": {
+        "enabled": true
+      },
+      "default": {
+        "enabled": true
+      },
+      "repeating": {
+        "enabled": false
+      },
+      "required": {
+        "enabled": true
+      },
+      "read_only": {
+        "enabled": true
+      },
+      "multiple": {
+        "enabled": false
+      },
+      "range": {
+        "enabled": false
+      },
+      "calendar": {
+        "enabled": false
+      },
+      "type": {
+        "enabled": true,
+        "dropdownValues": [
+          { "name": "Point", "code": "PNT" },
+          { "name": "Path", "code": "PTH" },
+          { "name": "Shape", "code": "SHP" }
+        ]
+      },
+      "style": {
+        "enabled": true,
+        "dropdownValues": [
+          { "name": "Default (GPS): Device GPS (no map)", "code": "DPS" },
+          { "name": "Show maps (GPS): Device GPS (confirm on a map)", "code": "SPS" },
+          { "name": "Manual (no GPS): No GPS (point on a map)", "code": "MPS" }
+        ]
+      },
+      "datatable": {
+        "enabled": false
+      }
+    },
+    "advanced_properties": {
+      "constraint": {
+        "enabled": true
+      },
+      "condition": {
+        "enabled": true
+      },
+      "calculation": {
+        "enabled": true
+      }
+    }
+  },
+  "numeric": {
+    "general_properties": {
+      "header": "Create Numeric Question",
+      "id": "numeric"
+    },
+    "basic_properties": {
+      "label": {
+        "enabled": true
+      },
+      "name": {
+        "enabled": true
+      },
+      "required": {
+        "enabled": true
+      },
+      "read_only": {
+        "enabled": true
+      },
+      "hint": {
+        "enabled": true
+      },
+      "default": {
+        "enabled": true
+      },
+      "repeating": {
+        "enabled": false
+      },
+      "multiple": {
+        "enabled": false
+      },
+      "range": {
+        "enabled": true
+      },
+      "calendar": {
+        "enabled": false
+      },
+      "type": {
+        "unit": true,
+        "enabled": true,
+        "dropdownValues": [
+          { "name": "Integer", "code": "INT" },
+          { "name": "Decimal", "code": "DCM" }
+        ]
+      },
+      "style": {
+        "enabled": true,
+        "dropdownValues": [
+          { "name": "Textbox", "code": "TXT" },
+          { "name": "Slider", "code": "SLR" },
+          { "name": "Vertical Slider", "code": "VLR" },
+          { "name": "Picker", "code": "PKR" }
+        ]
+      },
+      "datatable": {
+        "enabled": false
+      }
+    },
+    "advanced_properties": {
+      "constraint": {
+        "enabled": true
+      },
+      "condition": {
+        "enabled": true
+      },
+      "calculation": {
+        "enabled": true
+      }
+    }
+  },
+  "selection": {
+    "general_properties": {
+      "header": "Create Select Question",
+      "id": "selection"
+    },
+    "basic_properties": {
+      "label": {
+        "enabled": true
+      },
+      "name": {
+        "enabled": true
+      },
+      "hint": {
+        "enabled": true
+      },
+      "default": {
+        "enabled": true
+      },
+      "repeating": {
+        "enabled": false
+      },
+      "required": {
+        "enabled": true
+      },
+      "read_only": {
+        "enabled": true
+      },
+      "range": {
+        "enabled": false
+      },
+      "calendar": {
+        "enabled": false
+      },
+      "multiple": {
+        "enabled": true
+      },
+      "type": {
+        "enabled": false,
+        "dropdownValues": []
+      },
+      "style": {
+        "enabled": true,
+        "dropdownValues": [
+          { "name": "Horizontal Compact", "code": "HCM" },
+          { "name": "Horizontal", "code": "HRZ" },
+          { "name": "Likert", "code": "LKR" },
+          { "name": "Compact", "code": "CMP" },
+          { "name": "Quick Compact", "code": "QCC" },
+          { "name": "Label", "code": "LBL" },
+          { "name": "List", "code": "LST" }
+        ]
+      },
+      "datatable": {
+        "enabled": true
+      }
+    },
+    "advanced_properties": {
+      "constraint": {
+        "enabled": true
+      },
+      "condition": {
+        "enabled": true
+      },
+      "calculation": {
+        "enabled": true
+      }
+    }
+  },
+  "text": {
+    "general_properties": {
+      "header": "Create Text Question",
+      "id": "text"
+    },
+    "basic_properties": {
+      "label": {
+        "enabled": true
+      },
+      "name": {
+        "enabled": true
+      },
+      "hint": {
+        "enabled": true
+      },
+      "default": {
+        "enabled": true
+      },
+      "repeating": {
+        "enabled": false
+      },
+      "required": {
+        "enabled": true
+      },
+      "read_only": {
+        "enabled": true
+      },
+      "multiple": {
+        "enabled": false
+      },
+      "range": {
+        "enabled": false
+      },
+      "calendar": {
+        "enabled": false
+      },
+      "type": {
+        "enabled": false,
+        "dropdownValues": []
+      },
+      "style": {
+        "enabled": false,
+        "dropdownValues": []
+      },
+      "datatable": {
+        "enabled": false
+      }
+    },
+    "advanced_properties": {
+      "constraint": {
+        "enabled": true
+      },
+      "condition": {
+        "enabled": true
+      },
+      "calculation": {
+        "enabled": true
+      }
+    }
+  },
+  "group": {
+    "general_properties": {
+      "header": "Create a group of questions",
+      "id": "group"
+    },
+    "basic_properties": {
+      "label": {
+        "enabled": true
+      },
+      "name": {
+        "enabled": true
+      },
+      "hint": {
+        "enabled": false
+      },
+      "default": {
+        "enabled": false
+      },
+      "repeating": {
+        "enabled": true
+      },
+      "required": {
+        "enabled": false
+      },
+      "read_only": {
+        "enabled": false
+      },
+      "multiple": {
+        "enabled": false
+      },
+      "range": {
+        "enabled": false
+      },
+      "calendar": {
+        "enabled": false
+      },
+      "type": {
+        "enabled": false,
+        "dropdownValues": []
+      },
+      "style": {
+        "enabled": true,
+        "dropdownValues": [
+          { "name": "Field List", "code": "FLT" },
+          { "name": "Table List", "code": "TLT" }
+        ]
+      },
+      "datatable": {
+        "enabled": false
+      }
+    },
+    "advanced_properties": {
+      "constraint": {
+        "enabled": false
+      },
+      "condition": {
+        "enabled": true
+      },
+      "calculation": {
+        "enabled": false
+      }
+    }
+  }
+
+}
