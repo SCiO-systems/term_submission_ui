@@ -5,7 +5,7 @@ import { InputText } from 'primereact/inputtext';
 import 'primereact/resources/primereact.min.css';
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { getUserProfile, updateUserAvatar, updateUserProfile, } from '../services/users';
+import { getUserProfile, updateUserAvatar, updateUserProfile } from '../services/users';
 import { ToastContext, UserContext } from '../store';
 import { handleError } from '../utilities/errors';
 

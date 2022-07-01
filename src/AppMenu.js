@@ -22,8 +22,8 @@ const AppMenu = ({ onMenuClick }) => {
         <NavLink to="/">
           <div className="p-d-flex p-ai-center">
             <h3 style={{ color: 'white', textAlign: 'left' }}>
-              dataSCRIBE
-              <small className="p-d-block">ALPHA</small>
+              DataScribe
+              <small className="p-d-block">Term Helper</small>
             </h3>
           </div>
         </NavLink>
